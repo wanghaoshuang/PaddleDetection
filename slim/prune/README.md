@@ -53,7 +53,7 @@ python prune.py \
 python prune.py \
 -c ../../configs/yolov3_mobilenet_v1_voc.yml \
 --pruned_params "yolo_block.0.0.0.conv.weights,yolo_block.0.0.1.conv.weights,yolo_block.0.1.0.conv.weights" \
---pruned_ratios="0.2 0.3 0.4"
+--pruned_ratios="0.2,0.3,0.4"
 ```
 
 ## 5. 扩展模型
